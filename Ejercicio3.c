@@ -16,7 +16,6 @@ while (numero !=0){
     numero /=10;
 }
 return 0;
-}
 
 int esPrimo (int n){
     if (n<=1){
@@ -30,6 +29,15 @@ int esPrimo (int n){
     return 1;
 }
 
+int SumaPrimo= esPrimo(sumaD);
+if (SumaPrimo){
+    printf("La suma de los digitos %d es un numero primo. \n", sumaD);
+}
+else {
+    printf("La suma de los digitos %d no es un numero primo. \n", sumaD);
+}
+return 0;
+}
    
 
 
