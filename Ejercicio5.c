@@ -2,12 +2,13 @@
 
 #include <stdio.h>
 
+int main(){
+
 int num1=0;
 int num2= 1;
 int suma=0;
 
 while (num2 <= 100){
-    if (num2 %2 ==0){
 
         suma+= num2;
     }
@@ -15,4 +16,9 @@ while (num2 <= 100){
     int num3 = num1 + num2;
     num1 = num2;
     num2=num3;
+
+
+    printf("La suma de los numeros es: %d\n", suma);
+    
+    return 0;
 }
