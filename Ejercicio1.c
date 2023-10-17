@@ -27,3 +27,17 @@ int main() {
             }
         }
     }
+    if (inicio > fin) {
+        printf("El primer número debe ser menor o igual al segundo número.\n");
+    } else {
+        printf("Números terminados en 4 comprendidos entre %d y %d:\n", inicio, fin);
+        for (int numero = inicio; numero <= fin; numero++) {
+            if (numero % 10 == 4) {
+                printf("%d\n", numero);
+            }
+        }
+        printf("Fin del programa.\n");
+    }
+
+    return 0;
+}
