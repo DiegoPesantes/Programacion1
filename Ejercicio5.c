@@ -3,3 +3,11 @@
 #include <stdio.h>
 
 int num1, num2, suma;
+
+while (num2 <= 100){
+    if (num2 %2 ==0){
+
+        suma+= num2;
+    }
+    
+}
