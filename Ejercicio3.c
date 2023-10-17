@@ -7,4 +7,16 @@ int main (){
     printf ("Ingresa un numero:");
     scanf ("%d", &numero);
     return 0;
+
+int sumaD = 0;
+int numeroO= numero;
+
+while (numero !=0){
+    sumaD += numero %10;
+    numero /=10;
 }
+return 0;
+}
+   
+
+
