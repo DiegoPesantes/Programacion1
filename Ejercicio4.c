@@ -12,4 +12,18 @@ int esPrimo(int n) {
         }
     }
     return 1;
-}      
+}   
+int main() {
+    int numero, suma = 0, cantidad = 0;
+
+    printf("Ingrese números (0 para terminar): \n");
+
+    do {
+        scanf("%d", &numero);
+
+        if (numero != 0) {
+            if (esPrimo(numero)) {
+                suma += numero;
+                cantidad++;
+            }
+        }   
