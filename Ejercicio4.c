@@ -27,3 +27,14 @@ int main() {
                 cantidad++;
             }
         }   
+        } while (numero != 0);
+
+    if (cantidad > 0) {
+        int promedio = suma / cantidad;
+        printf("El promedio entero de los números primos es: %d\n", promedio);
+    } else {
+        printf("No se ingresaron números primos.\n");
+    }
+
+    return 0;
+}
