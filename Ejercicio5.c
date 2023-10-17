@@ -2,12 +2,15 @@
 
 #include <stdio.h>
 
-int num1, num2, suma;
+int num1=0;
+int num2= 1;
+int suma=0;
 
 while (num2 <= 100){
     if (num2 %2 ==0){
 
         suma+= num2;
     }
-    
+
+    int num3 = num1 + num2;
 }
